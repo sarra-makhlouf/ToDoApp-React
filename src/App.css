@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.todo-header {
+  background-color: #4696e5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 30px 50px;
+}
+.todo-header h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.todo-header h3 {
+  font-size: 13px;
+}
+.new-task {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #4696e5;
+  margin: 15px 0;
+  font-weight: 600;
+}
+.new-task::placeholder {
+  color: rgba(70, 150, 229, 0.35);
+}
+.add-button {
+  border: 1.5px solid #ffffff52;
+  padding: 10px 20px;
+  background: none;
+  border-radius: 5px;
+  color: inherit;
+  font-weight: 600;
+}
+.display-tasks {
+  background-color: #fbfbfb;
+  color: #838383;
+  margin: 55px 80px;
+  font-weight: 600;
+}
+.display-tasks h2 {
+  text-align: center;
+}
+hr {
+  width: 50px;
+  margin: 35px auto;
+  border: 1px solid #ebebeb;
+}
+.tasks-list li {
+  margin: 20px;
+  list-style: none;
+}
+.task-button {
+  background: none;
+  padding: 7px;
+  border: 1px solid #8383839f;
+  color: inherit;
+  font-weight: inherit;
+}
+.task {
+  margin: 30px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+.completed-task {
+  text-decoration: line-through;
+}
+input[name='edit'] {
+  padding: 6px;
+  margin: 0 10px;
+}
